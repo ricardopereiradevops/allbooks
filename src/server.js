@@ -19,8 +19,5 @@ server.use(
 server.use(router) //rotas na porta 3000
 
 server.listen(8000, () => {
-  console.log(
-    "Boas-vindas ao AllBooks. Acesse essa API em http://localhost:8000"
-  )
-  console.log("Essa é uma API de uma loja de livros online")
+  console.log("API disponível em http://localhost:8000")
 })
