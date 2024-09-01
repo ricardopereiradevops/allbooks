@@ -16,7 +16,7 @@ server.use(
   authenticationMiddleware
 )
 
-server.use(router) //rotas na prota 3000
+server.use(router) //rotas na porta 3000
 
 server.listen(8000, () => {
   console.log("Acesse essa API em http://localhost:8000")
